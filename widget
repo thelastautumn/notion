@@ -130,10 +130,8 @@ if (hrs < 10)
         greet = 'Guten Morgen, Julia';
     else if (hrs >= 10 && hrs <= 18)
         greet = 'Willkommen, Julia';
-    else if (hrs >= 18 && hrs <= 22)
+    else if (hrs >= 18 && hrs <= 24)
         greet = 'Guten Abend, Julia';
-    else if (hrs >= 22 && hrs <= 24)
-        greet = 'So spät noch hier, Julia?';
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
